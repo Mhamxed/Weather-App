@@ -1,1 +1,1 @@
-# Weather-App
+Create a simple weather app, using HTML, CSS, JS and visualcrossing.com free weather API.
