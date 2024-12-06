@@ -21,11 +21,88 @@
             </div>
         </div>
         <div class="main">
-            <p class="city"></p>
-            <p class="temperture"></p>
-            <p class="feels-like"></p>
-            <p class="humidity"></p>
-            <p class="wind"></p>
+            <div class="main-weaher">
+                <div class="city-temp">
+                    <p class="city">City, Country</p>
+                </div>
+                <div class="tempeture-sunrise-sunset">
+                    <div>
+                        <p class="temperture">--°C</p>
+                    </div>
+                    <div class="sunrise-sunset">
+                        <div class="rise">
+                            <i class="fa-solid fa-arrow-up" style="color: #000000;"></i>
+                            <p class="sunrise">00:00am</p>
+                        </div>
+                        <div class="set">
+                            <i class="fa-solid fa-arrow-down" style="color: #000000;"></i>
+                            <p class="sunset">00:00pm</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="conditions-cards">
+                <div class="left">
+                    <div class="card" id="conditions">
+                        <div class="display">
+                            <i class="fa-solid fa-cloud" style="color: #000000;"></i>
+                            <p>Conditions</p>
+                        </div>
+                        <div class="conditions">--</div>
+                    </div>
+                    <div class="card" id="feels-like">
+                        <div class="display">
+                            <i class="fa-solid fa-temperature-three-quarters" style="color: #000000;"></i>
+                            <p>Feels Like</p>
+                        </div>
+                        <div class="feels-like">--</div>
+                    </div>
+                    <div class="card" id="humidity">
+                        <div class="display">
+                            <i class="fa-solid fa-droplet" style="color: #000000;"></i>
+                            <p>Humidity</p>
+                        </div>
+                        <div class="humidity">--</div>
+                    </div>
+                    <div class="card" id="wind">
+                        <div class="display">
+                            <i class="fa-solid fa-wind" style="color: #000000;"></i>
+                            <p>Wind</p>
+                        </div>
+                        <div class="wind">--</div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="card" id="pressure">
+                        <div class="display">
+                            <i class="fa-solid fa-compress" style="color: #000000;"></i>
+                            <p>Pressure</p>
+                        </div>
+                        <div class="pressure">--</div>
+                    </div>
+                    <div class="card" id="visibility">
+                        <div class="display">
+                            <i class="fa-solid fa-eye" style="color: #000000;"></i>
+                            <p>Visibility</p>
+                        </div>
+                        <div class="visibility">--</div>
+                    </div>
+                    <div class="card" id="dew-point">
+                        <div class="display">
+                            <i class="fa-brands fa-drupal" style="color: #000000;"></i>
+                            <p>Dew</p>
+                        </div>
+                        <div class="dew-point">--</div>
+                    </div>
+                    <div class="card" id="uv-index">
+                        <div class="display">
+                            <i class="fa-solid fa-bolt" style="color: #000000;"></i>
+                            <p>UV Index</p>
+                        </div>
+                        <div class="uv-index">--</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
